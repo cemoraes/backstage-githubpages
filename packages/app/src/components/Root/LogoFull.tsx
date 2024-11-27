@@ -1,0 +1,30 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core';
+
+const useStyles = makeStyles({
+  svg: {
+    width: 'auto',
+    height: 30,
+  },
+  path: {
+    fill: '#7df3e1',
+  },
+});
+const LogoFull = () => {
+  const classes = useStyles();
+
+  return (
+    <svg
+      className={classes.svg}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path
+        className={classes.path}
+        d="M21 10L12 5L3 10L6 11.6667M21 10L18 11.6667M21 10V10C21.6129 10.3064 22 10.9328 22 11.618V16.9998M6 11.6667L12 15L18 11.6667M6 11.6667V17.6667L12 21L18 17.6667L18 11.6667"
+      />
+    </svg>
+  );
+};
+
+export default LogoFull;
