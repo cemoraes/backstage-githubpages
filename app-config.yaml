@@ -1,6 +1,6 @@
 app:
   title: Projeto CC
-  baseUrl: http://localhost:3000
+  baseUrl: https://cemoraes.github.io/backstage-githubpages/
 
 organization:
   name: UP - PROJECT (CC)
